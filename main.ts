@@ -21,3 +21,9 @@ function padLeft (value: string, padding: number | string): string {
         return padding + value;
     }
 }
+
+class Person {
+    constructor(public firstName: string, public lastName: string, public age: number) {};
+}
+
+const p = new Person("John","Smith",35);
