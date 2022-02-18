@@ -27,3 +27,9 @@ class Person {
 }
 
 const p = new Person("John","Smith",35);
+
+interface Person {
+    firstName: string;
+    lastName: string;
+    age: number;
+}
